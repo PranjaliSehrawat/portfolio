@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - B.Tech First Year</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* .container {
+        display: flex;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0;
+        font-size:50px;
+        font-weight: bolder;
+        background-image: url('https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_1280.jpg');
+        opacity: 0.7;
+        background-blend-mode: lighten;
+
+        text-align:center;
+        align-items: center;
+        justify-content: center;
+        color:rgb(255, 255, 255);
+        height:85px;
+        padding: 8px 15px 15px; 
+        } */
+        .container{
+        display: flex;
+        justify-content:space-around;
+        margin: 40px 0;
+
+        }
+
+        .home div{
+            width: 30%;
+            text-align: center;
+        }
+
+
+        .rightcol{      
+
+        font-size: 2.5rem;
+        }
+
+        .name{
+            color:rgb(22, 113, 188);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .leftcol img{
+            box-shadow: 10px 10px 5px green outset;
+            width: 450px;
+            height: 550px;
+            margin-right: 100px;
+            margin-left: 100px;
+            border-radius: 40px;
+        }
+        header {
+            background-color: #43a2a6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #266173;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            border-bottom: 2px solid #43a2a6;
+            padding-bottom: 5px;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills div, .projects div {
+            flex: 1 1 calc(50% - 20px);
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #266173;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio of Pranjali Sehrawat</h1>
+        <p>B.Tech First Year Student</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+   
+        <div class="container">
+        <div class="leftcol"> 
+        <img src="image.jpeg" alt="mine image" class="image">
+        </div>
+        <div class="rightcol">
+        <p>Hii! My name is <br><b class="name">PRANJALI SEHRAWAT.</b><br>I'm currently pursuing BTech from KIET Group Of Institutions.</p>
+        </div>
+        </div>
+            
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a first-semester B.Tech student in CSE at KIET Group Of Institutions. Passionate about technology and eager to learn, I aim to build a strong foundation in Web Development.</p>
+        
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Pursuing B.Tech in CSE:</strong> KIET Group Of Institutions, 2024-28</li>
+            <li><strong>Class 12:</strong> St.Aerjay Public School, 92%, 2023</li>
+            <li><strong>Class 10:</strong> St.Momina School, 88.7%, 2021</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div><strong>Programming:</strong> C, HTML, CSS, JS</div>
+            <div><strong>Tools:</strong> MS Office, Visual Studio Code</div>
+            <div><strong>Soft Skills:</strong> Teamwork, Problem-Solving, Communication</div>
+            <div><strong>Other:</strong> Basic knowledge of Git and Github</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div>
+                <strong>Basic Calculator in HTML,CSS and JS</strong>
+                <p>Developed a calculator that performs basic arithmetic operations using HTML,CSS and JS.</p>
+            </div>
+            <div>
+                <strong>Personal Portfolio Website</strong>
+                <p>Created this portfolio using HTML and CSS to showcase my skills and achievements.</p>
+            </div>
+            <div>
+                <strong>The Resource Hive Website</strong>
+                <p>A Website for college students to buy sell or rent various items within the college.</p>
+            </div>
+            <div>
+                <strong>Blog Preview card</strong>
+                <p>A frontend mentor project of making a blog preview card using html and css.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: pranjalisehrawat@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pranjali-sehrawat-b90557328">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/PranjaliSehrawat">GitHub Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pranjali Sehrawat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
